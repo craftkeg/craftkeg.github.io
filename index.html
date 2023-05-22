@@ -1,1 +1,168 @@
-Hi
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Craft Keg | Craft Beer Enthusiasts</title>
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+          background-color: #f5f5f5;
+        }
+          header {
+       background-color: white;
+    max-width: 800px;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;  
+  position: fixed;
+    z-index: 100;          
+    }
+
+    main {
+        padding: 2em;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+    input[type="submit"]:hover {
+        background-color: #555;
+        color: white;
+    }
+
+    .instagram-btn {
+        display: inline-block;
+        background-color: #E1306C;
+        color: white;
+        padding: 12px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        border-radius: 5px;
+    }
+
+    .instagram-btn:hover {
+        background-color: #C1274D;
+        color: white;
+    }
+
+
+ header {
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+
+#sticker {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    transform: rotate(10deg);
+    border-radius: 5px;
+    z-index: 100;
+    max-width: 150px;
+    height: auto;
+}
+
+
+      
+
+#content-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}   
+
+@media (max-width: 768px) {
+    #sticker {
+        transform: rotate(10deg) scale(0.6);
+        top: -5px;
+        right: -5px;
+    }
+}
+      
+</style>
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="Craft Keg Sticker" id="sticker" width="150" height="auto" />
+</header>
+
+<div id="content-wrapper">
+    <main>
+            <br /><br />
+      <p>Welcome to CraftKeg.com </p>
+
+      <p>
+Here's a little secret: </p>
+
+      <p>
+        Did you know that the craft kegs you buy from big stores like BevMo or Best Wine often aren't the freshest? Breweries sell to these retailers last, and they sell their older inventory first, meaning what you're getting may not be the freshest. At CraftKeg.com, we do things differently – and freshness is our mantra.</p>
+
+        <p>
+We go directly to local independent breweries, bypassing traditional retailers, to fill our kegs with the freshest beer available. Based on your preferences we'll deliver unique kegs that's bursting with freshness and flavor, removing hassle or keg pick up and ensuring you get a new taste experience every time.</p>
+
+            <p>
+We are dedicated to ensuring every tap you pull introduces a new taste experience, fresh from the brewery. After all, our motto says it all – "Tap it or die." Cheers! 🍻 
+</p>
+
+ <h2>Sixtel</h2>
+    <div>
+        <img src="productImage.jpg" alt="Product Image" style="width:100%; max-width:300px;"/>
+        <p id="productDescription"><b>$150</b> — Sixtel is a 5 gallon keg.  <br />
+          Add to cart then sit back and relax as we handpick the freshest brew from local independent breweries. No hassle, no committment (we don't ask for payment until we confirm you love the choice).</p>
+        <form action="https://formspree.io/f/mdovbbgv" method="POST">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Add to Cart">
+        </form>
+    </div>
+      
+    <h2>Connect on Insta</h2>
+    <p>Message, Get Quote, or Call from our profile.<br /><a class="instagram-btn" href="https://www.instagram.com/craftkeg" target="_blank">@craftkeg</a></p>
+    
+</main>
+</div> 
+</body>
+</html>
+
+
+
+
+
+
+  
